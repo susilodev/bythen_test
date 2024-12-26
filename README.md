@@ -1,31 +1,23 @@
-# Susilo nextjs Boilerplate
+# Bythen Test Project
 
-This is a boilerplate project for building modern Next.js applications with a strong focus on **TypeScript**, **UI components**, **testing**, and **best practices** for version control and commit standards.
+This repository contains the assessment test conducted by Bythen.ai.
 
-## Features
+## Installation Instructions
 
-- **Next.js 13** with **App Directory** support
-- **TypeScript** for static typing
-- UI components with **[shadcn-ui](https://ui.shadcn.dev)**
-- **React Hook Form** for form handling
-- Unit testing with **[Vitest](https://vitest.dev)**
-- End-to-end (E2E) testing with **[Playwright](https://playwright.dev)**
-- Git hooks with **[Husky](https://typicode.github.io/husky)**
-- Conventional commit messages using **[Commitizen](https://commitizen-tools.github.io/commitizen)**
-
-## Getting Started
+Follow the steps below to set up the project on your local machine:
 
 ### Prerequisites
 
-Ensure you have the following installed on your machine:
+- Make sure you have [Node.js](https://nodejs.org/) installed (preferably version 18.x or later).
+- Ensure that you have `npm` (Node Package Manager) installed (comes with Node.js).
 
-- [Node.js](https://nodejs.org/) >= 14.x
-- [npm](https://npmjs.com) or [yarn](https://yarnpkg.com/)
+### Steps to Install and Run
 
-### Installation
+```bash
+   git clone https://github.com/susilodev/bythen_test.git
+   cd bythen_test
+   npm install
+   npm run dev
+```
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/xxsusiloxx/susilo-next.git
-   cd your-repo
-   ```
+By default, the application runs at `http://localhost:3000`. Open this URL in your browser to view the application.
